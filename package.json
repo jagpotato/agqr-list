@@ -1,0 +1,24 @@
+{
+  "name": "agqr-list",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -o lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagpotato/agqr-list.git"
+  },
+  "author": "jagpotato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagpotato/agqr-list/issues"
+  },
+  "homepage": "https://github.com/jagpotato/agqr-list#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
