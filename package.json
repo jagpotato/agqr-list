@@ -2,10 +2,11 @@
   "name": "agqr-list",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/index.js -o lib/index.js"
+    "test": "mocha",
+    "build": "babel src/index.js -o lib/index.js",
+    "start": "yarn run build && node main.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,12 @@
   "homepage": "https://github.com/jagpotato/agqr-list#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.86.0"
   }
 }
