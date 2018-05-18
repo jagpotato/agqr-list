@@ -4,16 +4,15 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha",
-    "build": "babel src/index.js -o lib/index.js",
-    "start": "yarn run build && node main.js"
+    "test": "mocha -R spec",
+    "build": "babel src/index.js -o lib/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jagpotato/agqr-list.git"
   },
   "author": "jagpotato",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jagpotato/agqr-list/issues"
   },
