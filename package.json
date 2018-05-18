@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "yarn run build && mocha -R spec",
+    "test": "yarn run build && mocha -R spec -t 4000",
     "build": "babel src/index.js -o lib/index.js"
   },
   "repository": {
