@@ -1,7 +1,7 @@
 {
   "name": "agqr-list",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "超!A&G+で放送されている番組一覧を取得",
   "main": "lib/index.js",
   "scripts": {
     "test": "yarn run build && mocha -R spec -t 4000",
