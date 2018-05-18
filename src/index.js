@@ -75,7 +75,7 @@ const isDay = (show) => {
   }
 }
 
-export function getList (show) {
+export function getProgramList (show) {
   return new Promise((resolve, reject) => {
     const _show = show || 'All'
     if (isDay(_show) === false) {
