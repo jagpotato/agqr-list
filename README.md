@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/jagpotato/agqr-list.svg?branch=master)](https://travis-ci.org/jagpotato/agqr-list)
 [![npm](https://img.shields.io/npm/v/agqr-list.svg)](https://www.npmjs.com/package/agqr-list)
 
-超!A&G+で放送されている番組の一覧を取得する．
+[超!A&G+](http://www.agqr.jp/)で放送されている番組の一覧を取得する．
 
 ## Installation
 ```
