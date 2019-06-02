@@ -98,7 +98,11 @@ export function getProgramList (show) {
         timeTable[i].start = elem.children[0].data.match(/[0-9:]+/)[0]
       })
       $('td[class^=bg-]').each((i, elem) => {
-        timeTable[i].time = elem.attribs.rowspan
+        if (elem.attribs.rowspan % 10 === 9) {
+          timeTable[i].time = (parseInt(elem.attribs.rowspan, 10) + 1).toString(10)
+        } else {
+          timeTable[i].time = elem.attribs.rowspan
+        }
       })
       timeTable = sortTableByDay(timeTable, _show)
       resolve(timeTable)

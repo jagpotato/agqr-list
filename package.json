@@ -1,6 +1,6 @@
 {
   "name": "agqr-list",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "超!A&G+で放送されている番組一覧を取得",
   "main": "lib/index.js",
   "scripts": {
@@ -18,13 +18,14 @@
   },
   "homepage": "https://github.com/jagpotato/agqr-list#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "chai": "^4.1.2",
-    "mocha": "^5.1.1"
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "request": "^2.86.0"
   }
 }
